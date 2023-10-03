@@ -13,13 +13,13 @@ pyautogui.write(link)
 pyautogui.press("enter")
 time.sleep(3)
 
-pyautogui.click(x=445, y=396)
+pyautogui.click(x=576, y=399)
 pyautogui.write("testeautomatizado@gmail.com")
 pyautogui.press("tab")
 pyautogui.write("teste123")
 pyautogui.press("tab")
 pyautogui.press("enter")
-time.sleep(3)
+time.sleep(1)
 pyautogui.press("enter")
 
 
@@ -29,7 +29,7 @@ tabela = pandas.read_csv("produtos.csv")
 # print(tabela)
 
 for linha in tabela.index:
-    pyautogui.click(x=442, y=293)
+    pyautogui.click(x=625, y=281)
 
     codigo = tabela.loc[linha, "codigo"]
     marca = tabela.loc[linha, "marca"]
@@ -54,7 +54,9 @@ for linha in tabela.index:
     pyautogui.press("tab")
     pyautogui.press("enter")
 
-    pyautogui.scroll(50000)
+    pyautogui.scroll(-5000)
+    time.sleep(1)
+    pyautogui.scroll(+5000)
 
 
 # enviar_email()
