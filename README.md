@@ -2,5 +2,5 @@
 Automatizando tarefa de inclusão de novos itens em um sistema de cadastro de produtos. 
 
 
-https://github.com/Elder-Ferreira/AutomacaoDeTarefas/assets/103782980/a907a715-8aa5-411f-aaad-6a845a87ea26
+https://github.com/Elder-Ferreira/AutomacaoDeTarefas/assets/103782980/cbc35a98-6a19-44eb-b4b2-3c4892af8cc8
 
